@@ -25,7 +25,7 @@ jobs:
             args: '--target aarch64-apple-darwin'
             target: 'aarch64-apple-darwin'
           # macOS Intel (x86_64 DMG)
-          - platform: 'macos-13'
+          - platform: 'macos-latest'
             args: '--target x86_64-apple-darwin'
             target: 'x86_64-apple-darwin'
 
